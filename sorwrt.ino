@@ -1,17 +1,17 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-#define BLYNK_TEMPLATE_ID "TMPL2lzXlzplk"
-#define BLYNK_TEMPLATE_NAME "standingorwalking"
-#define BLYNK_AUTH_TOKEN "jLS45DeE87rlmlkvQz7NP2tuykQe61EN"
+#define BLYNK_TEMPLATE_ID " "
+#define BLYNK_TEMPLATE_NAME " "
+#define BLYNK_AUTH_TOKEN " "
 
 #define SENSOR_PIN D1 // the pin connected to the sensor
 #define WALKING_THRESHOLD 500 // the threshold value to determine walking or standing
 #define RUNNING_THRESHOLD 900 // the threshold value to determine running
 #define WINDOW_SIZE 10 // the size of the sliding window for signal smoothing
 
-char auth[] = "jLS45DeE87rlmlkvQz7NP2tuykQe61EN"; // your Blynk authentication token
-char ssid[] = "Naveen"; // your WiFi SSID
-char pass[] = "12345678"; // your WiFi password
+char auth[] = " "; // your Blynk authentication token
+char ssid[] = " "; // your WiFi SSID
+char pass[] = " "; // your WiFi password
 
 int window[WINDOW_SIZE]; // a sliding window for signal smoothing
 int windowIndex = 0; // the current index in the sliding window
